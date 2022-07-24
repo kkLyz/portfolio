@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Edu+VIC+WA+NT+Beginner:wght@500&family=M+PLUS+Rounded+1c&display=swap');
+html {
+    height: 100%
+}
+
+body{
+    font-family: 'du TAS Beginner', sans-serif;
+    font-size: 20px;
+    color: #fff; /*文字の色*/
+    background-color: #3F3F3F;/*背景色*/
+}
+
+img {
+    width: 100%;
+    max-width: 70%; /*gazou size*/
+    max-height: 70%;
+    margin: 0 auto;
+}
+.container {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    max-width: 225px;
+}
+.button {
+    float: left;
+    position: relative;
+    bottom: -65px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(-3deg);
+            transform: translateX(-50%) rotate(-3deg);
+    color: #e55643;
+    text-transform: uppercase;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+  }
+  
+  .button span {
+    -webkit-transform: skew(-3deg);
+            transform: skew(-3deg);
+    display: block;
+    float: left;
+    text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;
+  }
+  
+  h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+    line-height: 50px; /*portfolioと名前の間の距離*/
+    letter-spacing: 1px; /*文字の距離*/
+  }
+  
+  h2 {
+    font-size: 50px;
+  }
+  
+  .title {
+    -webkit-transform: translateX(-50%) rotate(10deg);/*rotateは表紙文字の角度*/
+            transform: translateX(-50%) rotate(10deg);/*translateXは表紙文字のX座標*/
+    display: block;
+    float: left;
+    left: 50%;
+    position: relative;
+  }
+  
+  
+  .title:nth-child(1) {
+    color: #4682b4; /*portfolio文字の色*/
+  }
+  
+  .title:nth-child(2) {
+    color: #ff4500; /*名前文字の色*/
+  }
+  
+  
+  #works {
+    text-align: center;
+    margin-top: 110vh;
+  }
+  
+  .works {
+    display: flex;
+    justify-content: center; /*works画像のセンタリング*/
+     /*worksの配置*/
+  }
+  
+  article {
+    margin-right: 60px; /*worksの画像同志の距離（X座標）*/
+    max-width: 30%; /*worksの画像の大きさ*/
+  }
+  
+  article img {
+    width: 100%; /*画像の大きさ*/
+  }
+  
+  .profile {
+    padding-top: 200px; /*works最下部とprofileの間*/
+    padding-bottom: 100px;
+    max-width: 100%;
+  }
+  
+  .profile h2 {
+    text-align: center; /*profileの文字のX座標*/
+  }
+  
+  .prof-img {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .prof-img img {
+    margin-right: -50px; /*nameの位置X座標、画面最大*/
+    max-width: 25%; /*ページ小さくした時の文字の位置*/
+    height: auto;
+  }
+  
+  .prof-img p {
+    margin-left: 30px;
+    max-width: 50%;
+  }
+  /*.prof-img imgからoverflow: hidden;　変えない*/
+  .small {
+    font-size: 20px;
+  }
+  
+  .content {
+    overflow: hidden; /*表紙名前文字の配列*/
+  }
+  
+  dt {
+    float: left; /*nameとschoolの場所*/
+  }
+  
+  dd {
+    padding-left: 50px;
+  }
+  
+  .prof-content {
+    display: flex;
+    /*プロフの配置*/
+  }
+  
+  .prof-content dl dd {
+    padding-left: 80px; /*プロフ文字の間*/
+  }
+  
+  @media screen and (max-width: 480px) {
+    .works {
+      display: flex;  /*screen size*/
+     }
+    
+    article {
+        margin-right: 0px;
+        max-width: 100%;
+      }
+    h1 {
+      font-size: 80px;
+    }
+    .prof-img img {
+      max-width: 100%;
+      height: auto;
+    }
+    .left, .right, .home {
+      font-size: 100px;
+    }
+    .prof-img img {
+      max-width: 100%;
+      height: auto;
+    }
+    .left, .right, .home {
+      font-size: 100px;
+    }
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .content img:hover{opacity: 0.5;}
+
+  .sns img:hover{opacity: 0.5;}
+
+  .sns img {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content img {
+    height: 150px;
+    width: 300px;
+  }
+
+  
+
+  
