@@ -1,0 +1,9 @@
+body {
+    font-size: 15px;
+    background-color: #3f3f3f;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.resizeimage img {width: 100%;}
