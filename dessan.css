@@ -1,0 +1,11 @@
+body {
+    font-family: 'du TAS Beginner', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff; /*文字の色*/
+    background-color: #3F3F3F;/*背景色*/
+}
+
+.resizeimage img {width: 100%;}
+
+.resizeimage img:hover{opacity: 0.5;}
