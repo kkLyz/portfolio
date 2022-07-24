@@ -1,0 +1,13 @@
+body {
+ font-size: 20px;
+ color: #fff;
+ background-color: #3f3f3f;  
+ text-align: center; 
+}
+
+.resizeimage {
+    display: flex;
+    justify-content: center;
+}
+
+.resizeimage img:hover{opacity: 0.5;}
